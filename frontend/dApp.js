@@ -47,7 +47,7 @@ const dApp = {
       });
     });
   },
-  copyrightWork: async function() {
+  registerTest_Result: async function() {
     const name = $("#dapp-token-name").val();
     const description = $("#dapp-token-description").val();
     const image = document.querySelector('input[type="file"]');
